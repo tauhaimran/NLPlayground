@@ -41,7 +41,7 @@ wait = WebDriverWait(driver, 20)
 os.makedirs("judgementpdfs", exist_ok=True)
 all_data = []
 
-print("🔍 Collecting dropdown options...")
+print(" Collecting dropdown options...")
 
 # --- get all judge/case subject options ---
 judge_box = wait.until(EC.element_to_be_clickable((By.ID, "select2-former_judge-container")))
@@ -101,7 +101,7 @@ for judge in judge_options:
                 pdf_size = os.path.getsize(filename)
                 print(f"     ✅ Downloaded ({pdf_size} bytes)")
             except:
-                print("     ⚠️ No PDF found for this case.")
+                print("     ⚠️  No PDF found for this case.")
 
             all_data.append({
                 "Case Subject": cols[1].text.strip(),
@@ -117,7 +117,7 @@ for judge in judge_options:
             })
 
 # save to JSON
-print("\n💾 Saving results to SupremeCourt_G4.json ...")
+print("\n 💾   Saving results to SupremeCourt_G4.json ...")
 with open("SupremeCourt_G4.json", "w", encoding="utf-8") as f:
     json.dump(all_data, f, indent=4, ensure_ascii=False)
 
