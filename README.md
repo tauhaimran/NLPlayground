@@ -1,11 +1,4 @@
-Ahhh okay, got it ✅
-You don’t want the README just for **this scraper**, but for the **whole `NLPlayground` repo**, since that repo will hold **all your NLP assignments**.
-
-Here’s a proper **repo-level README.md** 👇
-
----
-
-# 🧠 NLPlayground
+#  NLPlayground
 
 *A collection of my NLP (Natural Language Processing) assignments, experiments, and projects.*
 
@@ -53,26 +46,6 @@ NLPlayground/
 * Output stored as JSON + structured folders.
 
 📎 Code: [`Assignment1_DataExtraction`](./Assignment1_DataExtraction)
-
----
-
-### 📌 Assignment 2 – N-gram Language Models
-
-* Built **unigram, bigram, trigram** models.
-* Implemented **Laplace/Add-1 smoothing**.
-* Predicted sentence probabilities.
-
-📎 Code: [`Assignment2_LanguageModels`](./Assignment2_LanguageModels)
-
----
-
-### 📌 Assignment 3 – Text Classification
-
-* Implemented a **Naive Bayes classifier** for text.
-* Used **confusion matrix, precision, recall, F1-score**.
-* Compared **macro** vs **weighted** evaluation metrics.
-
-📎 Code: [`Assignment3_TextClassification`](./Assignment3_TextClassification)
 
 ---
 
