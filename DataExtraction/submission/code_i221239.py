@@ -23,7 +23,6 @@ import requests
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://www.supremecourt.gov.pk/judgement-search/")
-#driver.get("https://techwithtim.com/")
 wait = WebDriverWait(driver, 20)
 
 
@@ -117,10 +116,10 @@ for judge in judge_options:
             })
 
 # save to JSON
-print("\n 💾   Saving results to SupremeCourt_G4.json ...")
+print("\nSaving results to SupremeCourt_G4.json ...")
 with open("SupremeCourt_G4.json", "w", encoding="utf-8") as f:
     json.dump(all_data, f, indent=4, ensure_ascii=False)
 
-print("🎉 Done! Total cases scraped:", len(all_data))
+print("Total cases scraped:", len(all_data))
 
 driver.quit()

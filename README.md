@@ -30,8 +30,11 @@ The repo is structured so that each assignment has:
 NLPlayground/
 │── Assignment1_DataExtraction/   # Supreme Court Judgement Scraper
 │   ├── supreme_court_scraper.py
+│   ├── supreme_court_scraper_testing.ipynb
 │   ├── SupremeCourt_G4.json
 │   ├── judgementpdfs/
+│   ├── information/ # containts sample & helping material
+│   ├── submission/ # containts submission files
 │   └── README.txt
 │
 │── ...
