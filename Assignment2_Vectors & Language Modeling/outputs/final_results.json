@@ -1,18 +1,3 @@
-[
-  {
-    "Case Subject": "Rent/Default in Payment of Rent",
-    "Case No": "C.P.L.A.5516-2024",
-    "Case Title": "Mst. Shaista Hussain v. Farzana Naheed and others",
-    "Author Judge": "Mr. Justice Miangul Hassan Aurangzeb",
-    "Upload Date": "19-09-2025",
-    "Judgment Date": "11-09-2025",
-    "Citation": "N/A",
-    "SCCitation": "N/A",
-    "PDF": "judgementpdfs/judgement_C.P.L.A.5516-2024.pdf",
-    "File Size": 587424,
-    "ocr_text": "",
-    "extractive_summary": "",
-    "abstractive_summary": "",
-    "sentence_vectors": []
-  }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb848a186b1ffa91b3abe2ea1c8fdcee3722beb1fceb03b813ad56914692fbfc
+size 559
